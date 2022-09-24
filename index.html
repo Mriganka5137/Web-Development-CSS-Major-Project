@@ -5,15 +5,333 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/ee68d3be07.js" crossorigin="anonymous"></script>
     <title>Static Template</title>
   </head>
 
   <body>
-    <h1>Welcome Ninja!!</h1>
-    <h3>Write your code here!</h3>
-    <h3>A CSS and JS file has been created and linked for you already.</h3>
-    <h3>Feel free to change the directory structure to your liking.</h3>
-    <h3>Do not delete any .json file from CodeSandbox</h3>
+
+    <!-- header -->
+    <header>
+      <div class="menu">     
+        <a href="" class="logo"><img src="Images/logo2.png" alt=""></a>
+        <a href="" class="favorite">Favorites</a>
+      </div>
+
+      <div class="account">
+        <form >
+          <input class="searchbar" type="search" id="gsearch" placeholder="Search" >
+        </form>
+        <a href="" class="notification"><i class="fa-sharp fa-solid fa-bell"></i></a>
+        <a href="" class="profile"><img src="Images/profile.jpg" alt=""></a>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- Carousel -->
+      <div class="carousel">
+        <div class="shakira cover">
+          <img src="Images/shakira.jpg" alt="">
+        </div>
+
+        <div class="justin cover">
+          <img src="Images/justin.jpg" alt="">
+        </div>
+
+        <div class="edm cover">
+          <img src="martin.avif" alt="">
+
+        </div>
+
+
+      </div>
+
+
+      <!-- Latest Release -->
+      <h3 class="section-heading">Latest Release</h3>
+      <div class="latest-release">
+        <div class="song">
+          <a href="">
+            <img src="Images/song-icon.jpg"  width="150rem" alt="">
+          </a>
+            <div class="details">
+              <h3>Onism</h3>
+              <p>AUG 11, 2017</p>
+            </div>
+            <div class="more">
+              <a href="">
+                <i class="fa-solid fa-ellipsis"></i>
+              </a>
+              <p>4.44</p>
+            </div>
+        </div>
+        <div class="song">
+          <a href="">
+            <img src="Images/song-icon.jpg"  width="150rem" alt="">
+          </a>
+            <div class="details">
+              <h3>Onism</h3>
+              <p>AUG 11, 2017</p>
+            </div>
+            <div class="more">
+              <a href="">
+                <i class="fa-solid fa-ellipsis"></i>
+              </a>
+              <p>4.44</p>
+            </div>
+        </div>
+
+        <div class="song">
+          <a href="">
+            <img src="Images/song-icon.jpg"  width="150rem" alt="">
+          </a>
+            <div class="details">
+              <h3>Onism</h3>
+              <p>AUG 11, 2017</p>
+            </div>
+            <div class="more">
+              <a href="">
+                <i class="fa-solid fa-ellipsis"></i>
+              </a>
+              <p>4.44</p>
+            </div>
+        </div>
+
+        <div class="song">
+          <a href="">
+            <img src="Images/song-icon.jpg"  width="150rem" alt="">
+          </a>
+            <div class="details">
+              <h3>Onism</h3>
+              <p>AUG 11, 2017</p>
+            </div>
+            <div class="more">
+              <a href="">
+                <i class="fa-solid fa-ellipsis"></i>
+              </a>
+              <p>4.44</p>
+            </div>
+        </div>
+
+      </div>
+
+      <!-- Popular Artist -->
+      <h3 class="section-heading">Popular Artists</h3>
+      <div class="popular-artist">
+          <div class="artist">
+              <a href="">
+                <img src="Images/lisa.jpg" alt="">
+              </a>
+              <h4>Lisa</h4>
+          </div>
+
+          <div class="artist">
+            <a href="">
+              <img src="Images/ed-sheran.jpg" alt="">
+            </a>
+            <h4>Ed Sheeran</h4>
+          </div>
+
+          <div class="artist">
+            <a href="">
+              <img src="Images/dua.jpg" alt="">
+            </a>
+            <h4>Dua Lipa</h4>
+          </div>
+
+          <div class="artist">
+            <a href="">
+              <img src="Images/justin.jpg" alt="">
+            </a>
+            <h4>Justin Beiber</h4>
+          </div>
+
+          <div class="artist">
+            <a href="">
+              <img src="Images/khalid.jpg" alt="">
+            </a>
+            <h4>Khalid</h4>
+          </div>
+
+          <div class="artist">
+            <a href="">
+              <img src="Images/zayn.jpg" alt="">
+            </a>
+            <h4>Zayn Malik</h4>
+          </div>
+
+      </div>
+
+
+      <!-- Station Section -->
+      <div class="Stations">
+        <div class="genre">
+          <a href="">
+            <img src="Images/stations.jpg" alt="">
+          </a>
+        </div>
+        
+        <div class="genre">
+          <a href="">
+            <img src="Images/jazz.jpg" alt="">
+          </a>
+        </div>
+
+        <div class="genre">
+          <a href="">
+            <img src="Images/rock.jpg" alt="">
+          </a>
+        </div>
+
+        <div class="genre">
+          <a href="">
+            <img src="Images/jazz2.jpg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <!-- Genre -->
+      <div class="music-type">
+        <div class="type">
+          <a href="">
+            <img src="Images/party.jpg" alt="">
+            <h2>Party</h2>
+          </a>
+         
+        </div>
+
+        <div class="type">
+          <a href="">
+            <img src="Images/electronic.jpg" alt="">
+            <h2>Electronic</h2>
+          </a>
+          
+        </div>
+
+        <div class="type">
+          <a href="">
+            <img src="Images/road-trip.jpg" alt="">
+            <h2>Road Trip</h2>
+          </a>
+          
+        </div>
+
+
+      </div>
+
+
+      <!-- Latest English -->
+      <h3 class="section-heading">Latest English</h3>
+      <div class="latest-english">
+        <div class="onism"> 
+          <a href="">
+            <img src="Images/dua.jpg" alt="">
+            <h4>Onism</h4>
+            <p>AUG 11, 2017</p>
+          </a>
+        </div>
+
+        <div class="onism"> 
+          <a href="">
+            <img src="Images/img1.jpg" alt="">
+            <h4>Onism</h4>
+            <p>AUG 11, 2017</p>
+          </a>
+        </div>
+
+        <div class="onism"> 
+          <a href="">
+            <img src="Images/img2.jpg" alt="">
+            <h4>Onism</h4>
+            <p>AUG 11, 2017</p>
+          </a>
+        </div>
+
+        <div class="onism"> 
+          <a href="">
+            <img src="Images/img3.jpg" alt="">
+            <h4>Onism</h4>
+            <p>AUG 11, 2017</p>
+          </a>
+        </div>
+
+        <div class="onism"> 
+          <a href="">
+            <img src="Images/img4.jpg" alt="">
+            <h4>Onism</h4>
+            <p>AUG 11, 2017</p>
+          </a>
+        </div>
+
+        <div class="onism"> 
+          <a href="">
+            <img src="Images/img6.jpg" alt="">
+            <h4>Onism</h4>
+            <p>AUG 11, 2017</p>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Latest Hindi -->
+      <h3 class="section-heading">Latest Hindi</h3>
+      <div class="latest-english">
+        <div class="onism"> 
+          <a href="">
+            <img src="Images/dua.jpg" alt="">
+            <h4>Onism</h4>
+            <p>AUG 11, 2017</p>
+          </a>
+        </div>
+
+        <div class="onism"> 
+          <a href="">
+            <img src="Images/img1.jpg" alt="">
+            <h4>Onism</h4>
+            <p>AUG 11, 2017</p>
+          </a>
+        </div>
+
+        <div class="onism"> 
+          <a href="">
+            <img src="Images/img2.jpg" alt="">
+            <h4>Onism</h4>
+            <p>AUG 11, 2017</p>
+          </a>
+        </div>
+
+        <div class="onism"> 
+          <a href="">
+            <img src="Images/img3.jpg" alt="">
+            <h4>Onism</h4>
+            <p>AUG 11, 2017</p>
+          </a>
+        </div>
+
+        <div class="onism"> 
+          <a href="">
+            <img src="Images/img4.jpg" alt="">
+            <h4>Onism</h4>
+            <p>AUG 11, 2017</p>
+          </a>
+        </div>
+
+        <div class="onism"> 
+          <a href="">
+            <img src="Images/img6.jpg" alt="">
+            <h4>Onism</h4>
+            <p>AUG 11, 2017</p>
+          </a>
+        </div>
+
+      </div>
+
+
+
+
+    </main>
+
   </body>
 
   <script src="script.js"></script>
